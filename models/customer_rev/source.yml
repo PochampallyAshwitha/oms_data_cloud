@@ -1,0 +1,13 @@
+sources:
+  - name: landing
+    database: SLEEKMART_OMS
+    schema: L1_LANDING
+    tables:
+      - name : Customers
+        identifier: CUSTOMERS
+      - name: Orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
